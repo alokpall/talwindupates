@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+.ca-heading{
+  @apply font-semibold text-2xl leading-6 tracking-wider;
+}
+.ca-btn{
+  @apply pt-3 text-sm flex items-center cursor-pointer
+}
+.ca-content{
+  @apply absolute left-8 w-44
+}
+.ca-box{
+  @apply relative hover:scale-105 ease-out duration-300
+}
+.flex-items{
+  @apply flex items-center 
+}
+.flex-justify{
+  @apply flex justify-center
+}
+.flex-all{
+  @apply flex justify-center items-center
+}
+.btn-hover{
+  @apply bg-transparent border-white
+}
+.button{
+  @apply bg-amber-400 py-2 px-6 rounded-full font-semibold hover:bg-transparent hover:outline
+}
+.icon{
+  @apply  cursor-pointer hover:bg-amber-300 rounded-full py-1 px-1.5
+}
+.input{
+  @apply w-full border p-2 outline-none small:text-sm
+}
+@tailwind utilities;
+body {
+  margin: 0;
+  font-family: 'Ubuntu', sans-serif,'Urbanist','Franklin Gothic Medium',;
+  /* font-family: , sans-serif; */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
